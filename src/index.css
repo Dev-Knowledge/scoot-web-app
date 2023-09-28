@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+.custom_bg {
+  background-image: url("src/images/hero_mobile.png");
+}
+.custom_bg_md {
+  background-image: url("src/images/hero_md.jpg");
+}
